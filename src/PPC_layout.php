@@ -3,7 +3,7 @@
 /**
 * Output the site header HTML
 *
-* @param	string	$title	Page title
+* @param	string	$title		Page title
 */
 function site_header ($title, $auth_list="")
 {
@@ -143,7 +143,7 @@ function tx_detail ($tx_id)
 *
 * @param	string	$title		Title/name of detail
 * @param	string	$data		Detail data
-* @param	int		$wordwrap	Word-wrap maximum length
+* @param	int	$wordwrap	Word-wrap maximum length
 */
 function detail_display ($title, $data, $wordwrap=0)
 {
@@ -165,7 +165,7 @@ function tx_link ($tx_id)
 /**
 * Output a link to view a block with a certain height
 *
-* @param	int		$block_height
+* @param	int	$block_height
 */
 function blockheight_link ($block_height)
 {
@@ -176,7 +176,7 @@ function blockheight_link ($block_height)
 /**
 * Output a link to view a block hash
 *
-* @param	int		$block_hash
+* @param	int	$block_hash
 */
 function blockhash_link ($block_hash)
 {

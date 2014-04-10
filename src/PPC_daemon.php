@@ -46,7 +46,7 @@
 	/**
 	* Get the block hash value for the provided index (height)
 	*
-	* @param	int		$block_index
+	* @param	int	$block_index
 	*
 	* @return	string
 	*/
@@ -108,7 +108,7 @@
 	/**
 	* Get the network hash rate value (per second)
 	*
-	* @param	int		$block_index	[Optional] Block height/index
+	* @param	int	$block_index	[Optional] Block height/index
 	*
 	* @return	string
 	*/
@@ -145,7 +145,7 @@
 	* See: https://en.bitcoin.it/wiki/Raw_Transactions#getrawtransaction_.3Ctxid.3E_.5Bverbose.3D0.5D
 	*
 	* @param	string	$tx_id		Transaction ID
-	* @param	int		$verbose	[Optional] Values: 0 | 1
+	* @param	int	$verbose	[Optional] Values: 0 | 1
 	*
 	* @return	mixed
 	*/

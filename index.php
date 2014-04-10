@@ -97,7 +97,7 @@
 	$totalcoins = intval($network_info["moneysupply"]);
 	$totalcoins = number_format($totalcoins, 0 , '.' , ',');
 
-	//Minted Reward last 1h/24h
+	// Minted Reward last 1h/24h
 	$hours = 1;
 	list ($POS1, $POW1, $POScoins1, $POWcoins1, $avgPOScoins1, $avgPOWcoins1) = get_num_pos($hours);
 	list ($POS24, $POW24, $POScoins24, $POWcoins24, $avgPOScoins24, $avgPOWcoins24) = get_num_pos($hours * 24);
